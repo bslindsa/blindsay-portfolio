@@ -1,6 +1,21 @@
 import React from 'react';
 
-function NavTabs({ currentPage, handlePageChange }) {
+// const styles = {
+//   card: {
+//     margin: 20,
+//     background: 'blue',
+//   },
+//   heading: {
+//     background: 'blue',
+//     minHeight: 50,
+//     lineHeight: 3.5,
+//     fontSize: '1.2rem',
+//     color: 'white',
+//     padding: '0 20px',
+//   },
+// };
+
+function NavBar({ currentPage, handlePageChange }) {
   return (
     <ul className="nav nav-tabs">
       <li className="nav-item">
@@ -46,4 +61,4 @@ function NavTabs({ currentPage, handlePageChange }) {
   );
 }
 
-export default NavTabs;
+export default NavBar;
