@@ -1,6 +1,4 @@
-
 .project {
-    max-width: 50px;
     /* Complex method of getting notched corners on projects*/
     overflow: hidden;
     clip-path: polygon(

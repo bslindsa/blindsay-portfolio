@@ -1,5 +1,5 @@
 import React from 'react';
-import './Work.js';
+import './Work.css';
 
 export default function Work(props) {
 
@@ -8,7 +8,7 @@ export default function Work(props) {
       <h1>Work Page</h1>
       <div className='d-flex flex-wrap justify-content-around'>
         {props.projects.map(project => (
-          <div className="project">
+          <div className="project col-5 mb-5">
             <div className="card">
               <a href={project.link}>
                 <img src={project.image}
