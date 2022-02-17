@@ -1,9 +1,24 @@
+#about {
+    height: 100%;
+}
+
 .pic {
     float: right;
     width: 500px;
-    margin: 10px;
+    border: blue groove 10px;
+    margin-left: 10px;
 }
 
 p {
     text-align: justify;
+    padding: 0 10px;
+
+}
+
+@media screen and (max-width: 1110px) {
+    .pic{
+        width: 200px;
+        float: left;
+    }
+    
 }
