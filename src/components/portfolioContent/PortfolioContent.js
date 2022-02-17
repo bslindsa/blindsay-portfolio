@@ -1,12 +1,21 @@
 import React, { useState } from 'react';
 import './PortfolioContent.css'
 import Header from '../header/Header';
-import About from '../pages/about/About';
-import Work from '../pages/work/Work';
-import Contact from '../pages/contact/Contact';
+import About from '../../pages/about/About';
+import Work from '../../pages/work/Work';
+import Contact from '../../pages/contact/Contact';
 import Footer from '../footer/Footer';
-import Resume from '../pages/resume/Resume';
-import stoxster from '../images/stox-ster.png';
+import Resume from '../../pages/resume/Resume';
+import stoxster from './images/stox-ster.png';
+import superStatz from './images/super-statz.png';
+import geekGathering from './images/tech-blog.gif';
+import weatherDashboard from './images/weather-dashboard.JPG';
+import passwordGenerator from './images/password-generator.gif';
+import codeQuiz from './images/code-quiz.gif';
+import employeeTracker from './images/employee-tracker.png';
+import teamProfileGenerator from './images/team-profile-gen.gif';
+
+
 
 
 const projects = [
@@ -14,25 +23,25 @@ const projects = [
     title: "Stoxster",
     link: "https://wissamk08.github.io/BootCampProject-01",
     image: stoxster,
-    alt: "Stoxster homepage"
+    alt: "Stoxster stock ticker tracker site homepage"
   },
   {
-    title: "Stoxster1",
-    link: "https://wissamk08.github.io/BootCampProject-01",
-    image: stoxster,
-    alt: "Stoxster homepage"
+    title: "Super Statz",
+    link: "https://super-statz.herokuapp.com/",
+    image: superStatz,
+    alt: "Super Statz game stats tracking site"
   },
   {
-    title: "Stoxster2",
-    link: "https://wissamk08.github.io/BootCampProject-01",
-    image: stoxster,
-    alt: "Stoxster homepage"
+    title: "Tech Blog",
+    link: "https://geek-gathering.herokuapp.com/",
+    image: geekGathering,
+    alt: "Geek Gathering tech blog site"
   },
   {
-    title: "Stoxster3",
-    link: "https://wissamk08.github.io/BootCampProject-01",
-    image: stoxster,
-    alt: "Stoxster homepage"
+    title: "Weather Dashboard",
+    link: "https://bslindsa.github.io/weather-dashboard/",
+    image: weatherDashboard,
+    alt: "Weather dashboard site"
   },
   
 ]
