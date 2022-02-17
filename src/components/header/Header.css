@@ -1,0 +1,26 @@
+.header {
+    background-color: blue;
+    color: white;
+    font-family: fantasy;
+}
+
+header {
+    display: flex;
+}
+
+#avatar {
+    max-width: 100px;
+    max-height: auto;
+    margin: 5px;
+    /* Make the avatar icon a circle */
+    border-radius: 50%;
+}
+
+.title {
+    font-size: 90px;
+    font-family: fantasy;
+}
+
+li {
+    color: white;
+}

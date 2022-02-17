@@ -1,12 +1,10 @@
 import React from 'react';
-import PortfolioContainer from './components/PortfolioContent';
-import Header from './components/Header';
+import PortfolioContent from './components/portfolioContent/PortfolioContent';
 
 const App = () => {
     return (
         <div>
-            <Header />
-            <PortfolioContainer />;
+            <PortfolioContent />
         </div>
     )
 }

@@ -1,0 +1,39 @@
+.footer {
+    position: relative;
+    width: 100%;
+    bottom: 0;
+    text-align: center;
+    
+}
+
+.contactInfo {
+    background-color: black;
+    color: white;
+    padding-bottom: 1%;
+    padding-top: 1%;
+}
+
+.contactInfo img {
+    height: 100px;
+    width: auto;
+}
+
+.icons {
+    text-align: center;
+}
+
+/* Make the round icons round. */
+#linkedin, #github {
+    border-radius: 50%;
+}
+
+/* Organize footer at the bottom of the screen. */
+
+
+footer {
+    background-color: blue;
+    color: white;
+    padding-bottom: 1%;
+    padding-top: 1%;
+}
+

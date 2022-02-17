@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function About() {
   return (
-    <div>
+    <div id='about'>
       <h1>About Page</h1>
       <p id="about-text">
         Aspiring software developer from Mesa, Arizona with a B.S.E. in

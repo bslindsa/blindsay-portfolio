@@ -1,29 +1,68 @@
-import React from 'react';
-import email from './gmail-icon.jpg';
-import linkedin from './linkedin-icon.jpg';
-import github from './github-icon.jpg';
+import React, { useState } from 'react';
+import './Contact.css'
 
+function Contact() {
 
-export default function Contact() {
+    const [name, setName] = useState('');
+  const [email, setEmail] = useState('');
+  const [message, setMessage] = useState('');
+
+  const handleInputChange = (e) => {
+    // Getting the value and name of the input which triggered the change
+    const { name, value } = e.target;
+
+    // Ternary statement that will call either setName or setEmail based on what field the user is typing in
+    return name === 'name' ? setName(value) 
+        : name === 'email' ? setEmail(value) 
+        : setMessage(value);
+  };
+
+  const handleFormSubmit = (e) => {
+    e.preventDefault();
+
+    // Alert the user their first and last name, clear the inputs
+    alert(` Thank you for reaching out. Your message has been sent.`);
+    setName('');
+    setEmail('');
+    setMessage('');
+  };
+
   return (
     <div>
-      <h1>Contact Page</h1>
-      <div class="contactInfo col-md-9">
-        <div class="row">
-          <div class="icons col">
-            <a href="mailto:dont.judge712@gmail.com"><img src={email}
-              alt="Brad Lindsay Email" /></a>
-          </div>
-          <div class="icons col">
-            <a href="https://www.linkedin.com/in/brad-lindsay-473576152"><img id="linkedin"
-              src={linkedin} alt="Brad Lindsay Linkedin." /></a>
-          </div>
-          <div class="icons col">
-            <a href="https://github.com/bslindsa"><img id="github" src={github}
-              alt="Brad Lindsay Github" /></a>
-          </div>
-        </div>
-      </div>
+      <p>
+        Hello {name}
+      </p>
+      <form className="form">
+          <label>Name: </label>
+        <input
+          value={name}
+          name="name"
+          onChange={handleInputChange}
+          type="text"
+          placeholder="Name"
+        />
+        <label>Email Address: </label>
+        <input
+          value={email}
+          name="email"
+          onChange={handleInputChange}
+          type="email"
+          placeholder="example@email.com"
+        />
+        <label>Message: </label>
+        <input
+          value={message}
+          name="message"
+          onChange={handleInputChange}
+          type="text"
+          placeholder="Your message here..."
+        />
+        <button type="button" onClick={handleFormSubmit}>
+          Submit
+        </button>
+      </form>
     </div>
   );
 }
+
+export default Contact;

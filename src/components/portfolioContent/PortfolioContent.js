@@ -1,10 +1,12 @@
 import React, { useState } from 'react';
-import NavBar from './NavBar';
-import About from './pages/About';
-import Work from './pages/work/Work';
-import Contact from './pages/contact/Contact';
-import Resume from './pages/resume/Resume';
-import stoxster from './images/stox-ster.png';
+import './PortfolioContent.css'
+import Header from '../header/Header';
+import About from '../pages/about/About';
+import Work from '../pages/work/Work';
+import Contact from '../pages/contact/Contact';
+import Footer from '../footer/Footer';
+import Resume from '../pages/resume/Resume';
+import stoxster from '../images/stox-ster.png';
 
 
 const projects = [
@@ -15,19 +17,19 @@ const projects = [
     alt: "Stoxster homepage"
   },
   {
-    title: "Stoxster",
+    title: "Stoxster1",
     link: "https://wissamk08.github.io/BootCampProject-01",
     image: stoxster,
     alt: "Stoxster homepage"
   },
   {
-    title: "Stoxster",
+    title: "Stoxster2",
     link: "https://wissamk08.github.io/BootCampProject-01",
     image: stoxster,
     alt: "Stoxster homepage"
   },
   {
-    title: "Stoxster",
+    title: "Stoxster3",
     link: "https://wissamk08.github.io/BootCampProject-01",
     image: stoxster,
     alt: "Stoxster homepage"
@@ -55,8 +57,11 @@ export default function PortfolioContainer() {
 
   return (
     <div>
-      <NavBar currentPage={currentPage} handlePageChange={handlePageChange} />
+      <Header currentPage={currentPage} handlePageChange={handlePageChange} />
+      <div className='main'>
       {renderPage()}
+      </div>
+      <Footer />
     </div>
   );
 }

@@ -1,3 +1,8 @@
+.work-page {
+    background-color: black;
+    color: white;
+}
+
 .project {
     /* Complex method of getting notched corners on projects*/
     overflow: hidden;
@@ -21,6 +26,7 @@
     background-color: blue;
     color: white;
     padding: 2% 0%;
+    text-decoration: none;
 }
 
 img {
