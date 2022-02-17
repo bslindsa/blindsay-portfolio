@@ -16,7 +16,7 @@ function Header({ currentPage, handlePageChange }) {
             <a
               href="#about"
               onClick={() => handlePageChange('About')}
-              className={currentPage === 'About' ? 'nav-link active' : 'nav-link'}
+              className={currentPage === 'About' ? 'custom-nav-link nav-link active' : 'custom-nav-link nav-link'}
             >
               About Me
             </a>
@@ -25,8 +25,7 @@ function Header({ currentPage, handlePageChange }) {
             <a
               href="#work"
               onClick={() => handlePageChange('Work')}
-
-              className={currentPage === 'Work' ? 'nav-link active' : 'nav-link'}
+              className={currentPage === 'Work' ? 'custom-nav-link nav-link active' : 'custom-nav-link nav-link'}
             >
               My Work
             </a>
@@ -35,8 +34,7 @@ function Header({ currentPage, handlePageChange }) {
             <a
               href="#contact"
               onClick={() => handlePageChange('Contact')}
-
-              className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}
+              className={currentPage === 'Contact' ? 'custom-nav-link nav-link active' : 'custom-nav-link nav-link'}
             >
               Contact Me
             </a>
@@ -44,9 +42,8 @@ function Header({ currentPage, handlePageChange }) {
           <li className="nav-item">
             <a
               href="#resume"
-
               onClick={() => handlePageChange('Resume')}
-              className={currentPage === 'Resume' ? 'nav-link active' : 'nav-link'}
+              className={currentPage === 'Resume' ? 'custom-nav-link nav-link active' : 'custom-nav-link nav-link'}
             >
               Resume
             </a>

@@ -24,3 +24,8 @@ header {
 li {
     color: white;
 }
+
+.custom-nav-link {
+    font-size: 32px;
+    color: white
+}
