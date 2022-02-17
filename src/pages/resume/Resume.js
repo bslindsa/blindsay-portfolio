@@ -1,24 +1,13 @@
-import React, { useState } from 'react';
-// import resume from './blindsay-resume.pdf';
-import { Document, Page } from 'react-pdf';
+import React from 'react';
+import resume from './blindsay-resume.pdf';
 
 export default function Resume() {
 
-  const [numPages, setNumPages] = useState(null);
-  const [pageNumber] = useState(1);
-
-  function onDocumentLoadSuccess({ numPages }) {
-    setNumPages(numPages);
-  }
-
   return (
-    <div>
-      <Document file="blindsay-resume.pdf" onLoadSuccess={onDocumentLoadSuccess}>
-        <Page pageNumber={pageNumber} />
-      </Document>
-      <p>
-        Page {pageNumber} of {numPages}
-      </p>
+    <div className="mt-5">
+      <div md="12">
+        <embed id="Resume" src={resume} width="100%" height="950px%" />
+      </div>
     </div>
   );
 }

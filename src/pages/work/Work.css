@@ -6,6 +6,8 @@
 .project {
     /* Complex method of getting notched corners on projects*/
     overflow: hidden;
+    width: 40%;
+    min-width: 525px;
     clip-path: polygon(
     0 10%,
     10% 0,
@@ -16,12 +18,18 @@
     10% 100%,
     0% 90%,
     0% 10%
-    )
+    );
+    /* max-height: 300px; */
+}
+
+.card {
+    max-height: 400px;
 }
 
 .proj-head {
-    height: 30%;
-    font-size: 2rem;
+    height: 75px;
+    /* font-size: 2rem; */
+    font-family: fantasy;
     text-align: center;
     background-color: blue;
     color: white;
@@ -29,7 +37,8 @@
     text-decoration: none;
 }
 
-img {
+.image {
     width: 100%;
-    object-fit: contain;
+    height: 300px;
 }
+

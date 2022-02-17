@@ -1,0 +1,9 @@
+.pic {
+    float: right;
+    width: 500px;
+    margin: 10px;
+}
+
+p {
+    text-align: justify;
+}

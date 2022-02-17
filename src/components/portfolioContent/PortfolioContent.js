@@ -43,7 +43,30 @@ const projects = [
     image: weatherDashboard,
     alt: "Weather dashboard site"
   },
-  
+  {
+    title: "Team Profile Generator",
+    link: "https://bslindsa.github.io/team-profile-generator/",
+    image: teamProfileGenerator,
+    alt: "Team Profile Generator Application"
+  },
+  {
+    title: "Employee Tracker",
+    link: "https://bslindsa.github.io/employee-tracker",
+    image: employeeTracker,
+    alt: "Employee Tracker Application"
+  },
+  {
+    title: "Password Generator",
+    link: "https://bslindsa.github.io/password-generator/",
+    image: passwordGenerator,
+    alt: "Random password generator"
+  },
+  {
+    title: "Coding Quiz",
+    link: "https://bslindsa.github.io/basic-coding-quiz/",
+    image: codeQuiz,
+    alt: "Fun coding quiz"
+  },  
 ]
 
 export default function PortfolioContainer() {
