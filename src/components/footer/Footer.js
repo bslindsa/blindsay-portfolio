@@ -18,7 +18,7 @@ export default function Footer() {
               alt="Brad Lindsay Email" /></a>
           </div>
           <div className="icons col">
-            <a href="https://www.linkedin.com/in/brad-lindsay-473576152"><img id="linkedin"
+            <a href="https://www.linkedin.com/in/bslindsay"><img id="linkedin"
               src={linkedin} alt="Brad Lindsay Linkedin." /></a>
           </div>
           <div className="icons col">
