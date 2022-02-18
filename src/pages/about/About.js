@@ -4,7 +4,7 @@ import './About.css';
 
 export default function About() {
   return (
-    <div id='about'>
+    <div>
       <img className='pic square' src={profilePic} alt='Brad being brutally attacked by his small infant' />
       <p id="about-text">
         Hey there! My name is Brad Lindsay, creator of &copy;Dont_Judge content! I've had quite the journey to get where I am today.

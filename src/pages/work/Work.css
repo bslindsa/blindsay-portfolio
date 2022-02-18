@@ -19,7 +19,6 @@
     0% 90%,
     0% 10%
     );
-    /* max-height: 300px; */
 }
 
 .card {
@@ -28,13 +27,16 @@
 
 .proj-head {
     height: 75px;
-    /* font-size: 2rem; */
     font-family: fantasy;
     text-align: center;
     background-color: blue;
     color: white;
     padding: 2% 0%;
     text-decoration: none;
+}
+
+header {
+    display: inline;
 }
 
 .image {

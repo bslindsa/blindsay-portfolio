@@ -5,7 +5,7 @@ function Header({ currentPage, handlePageChange }) {
   return (
     <div className='header'>
       <div>
-        <header>
+        <header className='d-flex'>
           <img id='avatar' src='./knight.jpg' alt="knight helmet avatar" />
           <h1 className='title'> Brad Lindsay</h1>
         </header>

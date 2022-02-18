@@ -4,9 +4,13 @@
     font-family: fantasy;
 }
 
-header {
-    display: flex;
+.custom-nav {
+    border-bottom: blue groove 5px;
 }
+
+/* header {
+    display: inline-flex;
+} */
 
 #avatar {
     max-width: 100px;

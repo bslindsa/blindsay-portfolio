@@ -1,8 +1,21 @@
-.footer {
+.footer-all {
     position: relative;
     width: 100%;
     bottom: 0;
+}
+
+footer {
+    background-color: blue;
+    color: white;
+    padding-bottom: 1%;
+    padding-top: 1%;
     text-align: center;
+    font-size: 18px;
+    margin: auto;
+}
+
+.copyright {
+    display: inline;
 }
 
 .contactInfo {
@@ -29,10 +42,5 @@
 /* Organize footer at the bottom of the screen. */
 
 
-footer {
-    background-color: blue;
-    color: white;
-    padding-bottom: 1%;
-    padding-top: 1%;
-}
+
 

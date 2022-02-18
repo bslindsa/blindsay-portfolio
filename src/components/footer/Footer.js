@@ -2,14 +2,14 @@ import React from 'react';
 import email from './gmail-icon.jpg';
 import linkedin from './linkedin-icon.jpg';
 import github from './github-icon.jpg';
-import './Footer.css'
+import './Footer.css';
 
 
 export default function Footer() {
   return (
-    <div className='footer'>
+    <div className='footer-all'>
       <footer>
-        <p><span>&copy;</span>2021 Don't_Judge content. Coding Camp Portfolio</p>
+        <p className='copyright'>&copy;2021 Don't_Judge Content</p>
       </footer>
       <div className="contactInfo col-sm-12">
         <div className="row">
