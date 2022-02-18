@@ -1,12 +1,13 @@
 import React from 'react';
 import './Header.css';
+import knight from './knight.jpg';
 
 function Header({ currentPage, handlePageChange }) {
   return (
     <div className='header'>
       <div>
         <header className='d-flex'>
-          <img id='avatar' src='./knight.jpg' alt="knight helmet avatar" />
+          <img id='avatar' src={knight} alt="knight helmet avatar" />
           <h1 className='title'> Brad Lindsay</h1>
         </header>
       </div>
