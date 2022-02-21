@@ -45,13 +45,13 @@ const projects = [
   },
   {
     title: "Team Profile Generator",
-    link: "https://bslindsa.github.io/team-profile-generator/",
+    link: "https://github.com/bslindsa/team-profile-generator",
     image: teamProfileGenerator,
     alt: "Team Profile Generator Application"
   },
   {
     title: "Employee Tracker",
-    link: "https://bslindsa.github.io/employee-tracker",
+    link: "https://github.com/bslindsa/employee-tracker",
     image: employeeTracker,
     alt: "Employee Tracker Application"
   },
