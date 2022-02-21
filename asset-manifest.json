@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/blindsay-portfolio/static/css/main.19156782.css",
-    "main.js": "/blindsay-portfolio/static/js/main.5f275da8.js",
+    "main.js": "/blindsay-portfolio/static/js/main.1b6dec9b.js",
     "static/media/team-profile-gen.gif": "/blindsay-portfolio/static/media/team-profile-gen.6bebc510537211b0615c.gif",
     "static/media/tech-blog.gif": "/blindsay-portfolio/static/media/tech-blog.6a3c2ff87711d20beb86.gif",
     "static/media/super-statz.png": "/blindsay-portfolio/static/media/super-statz.441608c8a0a8128bb946.png",
@@ -18,10 +18,10 @@
     "static/media/github-icon.jpg": "/blindsay-portfolio/static/media/github-icon.21ec5b2a1058a43e11a4.jpg",
     "index.html": "/blindsay-portfolio/index.html",
     "main.19156782.css.map": "/blindsay-portfolio/static/css/main.19156782.css.map",
-    "main.5f275da8.js.map": "/blindsay-portfolio/static/js/main.5f275da8.js.map"
+    "main.1b6dec9b.js.map": "/blindsay-portfolio/static/js/main.1b6dec9b.js.map"
   },
   "entrypoints": [
     "static/css/main.19156782.css",
-    "static/js/main.5f275da8.js"
+    "static/js/main.1b6dec9b.js"
   ]
 }
