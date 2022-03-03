@@ -21,6 +21,18 @@
     );
 }
 
+
+.ghlink {
+    height: 40px;
+    width: auto;
+    border-radius: 50%;
+    margin-right: 30px;
+}
+
+.ghlink:hover {
+    border: black 3px solid;
+}
+
 .card {
     max-height: 400px;
 }

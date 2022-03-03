@@ -1,5 +1,6 @@
 import React from 'react';
 import './Work.css';
+import github from './github-icon.jpg';
 
 export default function Work(props) {
 
@@ -14,8 +15,13 @@ export default function Work(props) {
                   <img className='image' src={project.image}
                     alt={project.alt} />
                 </div>
-                <div className="proj-head">
-                  <header>{project.title}</header>
+                <div className="proj-head d-flex justify-content-around">
+                  <header>
+                    <a href={project.github}>
+                      <img className='ghlink' src={github} alt='github link' />
+                    </a>
+                    {project.title}
+                  </header>
                 </div>
               </a>
             </div>

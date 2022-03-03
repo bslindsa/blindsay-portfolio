@@ -23,54 +23,63 @@ const projects = [
   {
     title: "Gamers Link Up",
     link: "https://gamers-link-up.herokuapp.com/",
+    github: 'https://github.com/bslindsa/gamers-link-up',
     image: gamersLinkUp,
     alt: "Gamers Link Up homepage"
   },
   {
     title: "Stoxster",
     link: "https://wissamk08.github.io/BootCampProject-01",
+    github: 'https://github.com/wissamk08/BootCampProject-01',
     image: stoxster,
     alt: "Stoxster stock ticker tracker site homepage"
   },
   {
     title: "Super Statz",
     link: "https://super-statz.herokuapp.com/",
+    github: 'https://github.com/lilslash/Stats-Tracker',
     image: superStatz,
     alt: "Super Statz game stats tracking site"
   },
   {
     title: "Tech Blog",
     link: "https://geek-gathering.herokuapp.com/",
+    github: 'https://github.com/lilslash/Stats-Tracker',
     image: geekGathering,
     alt: "Geek Gathering tech blog site"
   },
   {
     title: "Weather Dashboard",
     link: "https://bslindsa.github.io/weather-dashboard/",
+    github: 'https://github.com/bslindsa/weather-dashboard',
     image: weatherDashboard,
     alt: "Weather dashboard site"
   },
   {
     title: "Team Profile Generator",
     link: "https://github.com/bslindsa/team-profile-generator",
+    github: 'https://github.com/bslindsa/team-profile-generator',
     image: teamProfileGenerator,
     alt: "Team Profile Generator Application"
   },
   {
     title: "Employee Tracker",
     link: "https://github.com/bslindsa/employee-tracker",
+    github: 'https://github.com/bslindsa/employee-tracker',
     image: employeeTracker,
     alt: "Employee Tracker Application"
   },
   {
     title: "Password Generator",
     link: "https://bslindsa.github.io/password-generator/",
+    github: 'https://github.com/bslindsa/password-generator',
     image: passwordGenerator,
     alt: "Random password generator"
   },
   {
     title: "Coding Quiz",
     link: "https://bslindsa.github.io/basic-coding-quiz/",
+    github: 'https://github.com/bslindsa/basic-coding-quiz',
     image: codeQuiz,
     alt: "Fun coding quiz"
   },  
