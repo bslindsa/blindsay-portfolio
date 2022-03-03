@@ -1,5 +1,5 @@
 import React from 'react';
-import resume from './blindsay-resume.pdf';
+import resume from './Brad_Lindsay_Resume.pdf';
 
 export default function Resume() {
 

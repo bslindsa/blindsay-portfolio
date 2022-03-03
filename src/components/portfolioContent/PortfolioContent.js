@@ -14,11 +14,18 @@ import passwordGenerator from './images/password-generator.gif';
 import codeQuiz from './images/code-quiz.gif';
 import employeeTracker from './images/employee-tracker.png';
 import teamProfileGenerator from './images/team-profile-gen.gif';
+import gamersLinkUp from './images/link-up.gif';
 
 
 
 
 const projects = [
+  {
+    title: "Gamers Link Up",
+    link: "https://gamers-link-up.herokuapp.com/",
+    image: gamersLinkUp,
+    alt: "Gamers Link Up homepage"
+  },
   {
     title: "Stoxster",
     link: "https://wissamk08.github.io/BootCampProject-01",
