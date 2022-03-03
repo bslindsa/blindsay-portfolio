@@ -1,9 +1,10 @@
 {
   "files": {
     "main.css": "/blindsay-portfolio/static/css/main.19156782.css",
-    "main.js": "/blindsay-portfolio/static/js/main.1b6dec9b.js",
+    "main.js": "/blindsay-portfolio/static/js/main.167b0561.js",
     "static/media/team-profile-gen.gif": "/blindsay-portfolio/static/media/team-profile-gen.6bebc510537211b0615c.gif",
     "static/media/tech-blog.gif": "/blindsay-portfolio/static/media/tech-blog.6a3c2ff87711d20beb86.gif",
+    "static/media/link-up.gif": "/blindsay-portfolio/static/media/link-up.65a84e0e396c6e0bc715.gif",
     "static/media/super-statz.png": "/blindsay-portfolio/static/media/super-statz.441608c8a0a8128bb946.png",
     "static/media/code-quiz.gif": "/blindsay-portfolio/static/media/code-quiz.1ec30f3e660290050e9c.gif",
     "static/media/password-generator.gif": "/blindsay-portfolio/static/media/password-generator.9e6f212d77961fee6188.gif",
@@ -11,17 +12,17 @@
     "static/media/stox-ster.png": "/blindsay-portfolio/static/media/stox-ster.71a1464473cdcfa7f619.png",
     "static/media/weather-dashboard.JPG": "/blindsay-portfolio/static/media/weather-dashboard.ca7730c4193124114395.JPG",
     "static/media/employee-tracker.png": "/blindsay-portfolio/static/media/employee-tracker.1de198b1d23176231629.png",
-    "static/media/blindsay-resume.pdf": "/blindsay-portfolio/static/media/blindsay-resume.85eca6c651b96c28d2f4.pdf",
+    "static/media/Brad_Lindsay_Resume.pdf": "/blindsay-portfolio/static/media/Brad_Lindsay_Resume.ac00cfd965ee430d8071.pdf",
     "static/media/knight.jpg": "/blindsay-portfolio/static/media/knight.e159bc31e1f325dff3f4.jpg",
     "static/media/linkedin-icon.jpg": "/blindsay-portfolio/static/media/linkedin-icon.525c18202bb422cbf353.jpg",
     "static/media/gmail-icon.jpg": "/blindsay-portfolio/static/media/gmail-icon.413335f10e345035114d.jpg",
     "static/media/github-icon.jpg": "/blindsay-portfolio/static/media/github-icon.21ec5b2a1058a43e11a4.jpg",
     "index.html": "/blindsay-portfolio/index.html",
     "main.19156782.css.map": "/blindsay-portfolio/static/css/main.19156782.css.map",
-    "main.1b6dec9b.js.map": "/blindsay-portfolio/static/js/main.1b6dec9b.js.map"
+    "main.167b0561.js.map": "/blindsay-portfolio/static/js/main.167b0561.js.map"
   },
   "entrypoints": [
     "static/css/main.19156782.css",
-    "static/js/main.1b6dec9b.js"
+    "static/js/main.167b0561.js"
   ]
 }
