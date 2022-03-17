@@ -1,3 +1,4 @@
+import { getDefaultNormalizer } from '@testing-library/react';
 import React, { useState } from 'react';
 import './Contact.css'
 
@@ -20,8 +21,11 @@ function Contact() {
     const handleFormSubmit = (e) => {
         e.preventDefault();
 
+        const emailto = 'dont.judge712@gmail.com';
+        let link = `mailto:${emailto}?subject=${name}&body=${message}`;
+        window.location.href = link;
+
         // Alert the user their first and last name, clear the inputs
-        alert(` Thank you for reaching out. Your message has been sent.`);
         setName('');
         setEmail('');
         setMessage('');
@@ -30,36 +34,38 @@ function Contact() {
     return (
         <div>
             <form className="form">
+                <label>Send Message To: </label><br /> 
+                <a href='mailto:dont.judge712@gmail.com' id='emailto'>dont.judge712@gmail.com</a>
                 <div>
-                <label >Name: </label>
-                <input
-                    value={name}
-                    name="name"
-                    onChange={handleInputChange}
-                    type="text"
-                    placeholder="Name"
-                />
+                    <label>Name: </label>
+                    <input
+                        value={name}
+                        name="name"
+                        onChange={handleInputChange}
+                        type="text"
+                        placeholder="Name"
+                    />
                 </div>
                 <div>
-                <label>Email Address: </label>
-                <input
-                    value={email}
-                    name="email"
-                    onChange={handleInputChange}
-                    type="email"
-                    placeholder="example@email.com"
-                />
+                    <label>Email Address: </label>
+                    <input
+                        value={email}
+                        name="email"
+                        onChange={handleInputChange}
+                        type="email"
+                        placeholder="example@email.com"
+                    />
                 </div>
                 <div>
-                <label>Message: </label>
-                <textarea
-                    id='message'
-                    value={message}
-                    name="message"
-                    onChange={handleInputChange}
-                    type="text"
-                    placeholder="Your message here..."
-                />
+                    <label>Message: </label>
+                    <textarea
+                        id='message'
+                        value={message}
+                        name="message"
+                        onChange={handleInputChange}
+                        type="text"
+                        placeholder="Your message here..."
+                    />
                 </div>
                 <button type="button" onClick={handleFormSubmit}>
                     Submit
